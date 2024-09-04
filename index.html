@@ -83,7 +83,7 @@
             userInput.value = '';
 
             try {
-                const response = await fetch('/.netlify/functions/claudeAPI', {
+                const response = await fetch('/claudeAPI', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
